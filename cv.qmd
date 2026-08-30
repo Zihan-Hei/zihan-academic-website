@@ -65,9 +65,9 @@ Intern]{.cv-entry-title} — Binghamton University\
 ## Research Experience
 
 ::: cv-entry
-[November 2025–Present]{.cv-date} [Chemo-Immunotherapy Biomarker
-Discovery]{.cv-entry-title} — Independent Study, Binghamton University\
-[Faculty Mentor: Dr. Nancy Guo]{.cv-mentor}
+[November 2025–Present]{.cv-date} [Transcriptomic Biomarker Discovery and Validation in Chemo-Immunotherapy]{.cv-entry-title} — Independent Study,
+Binghamton University\
+[Faculty Mentors: Dr. Nancy Guo]{.cv-mentor}
 
 - Reproduce and validate single-cell RNA-seq preprocessing pipelines,
   including quality control, normalization, and high-variance gene
@@ -80,9 +80,8 @@ Discovery]{.cv-entry-title} — Independent Study, Binghamton University\
 :::
 
 ::: cv-entry
-[August 2025–Present]{.cv-date} [Health Information
-Avoidance]{.cv-entry-title} — Independent Study, Binghamton University\
-[Faculty Mentors: Dr. Shane McCarty and Dr. Heather Orom]{.cv-mentor}
+[August 2025–Present]{.cv-date} [Machine Learning for Health Information Avoidance]{.cv-entry-title} — Independent Study, Binghamton University\
+[Faculty Mentors: Dr. Heather Orom, Dr. Shane McCarty and Dr.Kargin Vladislav]{.cv-mentor}
 
 - Evaluate model performance using logistic regression, multivariate
   adaptive regression splines, and random forests to predict
@@ -92,8 +91,7 @@ Avoidance]{.cv-entry-title} — Independent Study, Binghamton University\
 :::
 
 ::: cv-entry
-[August 2025–November 2025]{.cv-date} [A Mixed-Methods Analysis of
-Promotion and Prevention Mindsets]{.cv-entry-title} — Undergraduate
+[August 2025–APR 2026]{.cv-date} [A Mixed-Methods Analysis of Promotion and Prevention Mindsets]{.cv-entry-title} — Undergraduate
 Research, Binghamton University\
 [Faculty Mentor: Dr. Shane McCarty]{.cv-mentor}
 
@@ -108,7 +106,7 @@ Research, Binghamton University\
 :::
 
 ::: cv-entry
-[June 2025–Present]{.cv-date} [Zero-Sum Beliefs]{.cv-entry-title} —
+[June 2025–Present]{.cv-date} [Political Affiliation and Zero-Sum Beliefs]{.cv-entry-title} —
 Undergraduate Research, Binghamton University\
 [Faculty Mentor: Dr. Shane McCarty]{.cv-mentor}
 
@@ -172,7 +170,7 @@ Binghamton University\
   support research teams' Quarto research reports.
 :::
 
-## Technical Projects
+## Data Science Projects
 
 ::: cv-entry
 [January 2026–May 2026]{.cv-date} [Histopathology Thyroid Cancer
@@ -204,6 +202,7 @@ Board Games]{.cv-entry-title} — Group Project, Binghamton University
   Recipient, 2026–2027
 - Pi Mu Epsilon, National Mathematics Honor Society, 2026
 - Harpur College Dean's List, Every Semester Attended, Fall 2023–Present
+- Provost's Promise Scholarship, Every Semester, Fall 2023–Present 
 
 ## Technical Skills
 
