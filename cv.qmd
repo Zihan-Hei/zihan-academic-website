@@ -212,8 +212,7 @@ Script\
 **Research Reproducibility:** Quarto, GitHub, LaTeX\
 **Data Visualization:** ggplot2, Plotly, Matplotlib, Observable JS\
 **Machine Learning:** Random forests, decision trees, classification
-models, deep learning, scikit-learn, tidymodels, caret, PyTorch,
-YOLO\
+models, deep learning, scikit-learn, tidymodels, caret, PyTorch, YOLO\
 **Bioinformatics:** Differential expression analysis, limma, Gene Set
 Enrichment Analysis, RNA-seq workflows\
 **Survey and Analysis Tools:** Qualtrics, SPSS
