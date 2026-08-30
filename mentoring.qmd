@@ -12,9 +12,4 @@ title: "Mentoring"
 - Collaborated with the instructor and other research assistants to support research teams' Quarto research reports.
 - Helped students troubleshoot code, interpret results, and communicate findings in reproducible reports.
 
-## Peer Mentor Educational Resource
 
-**FRI Peer Mentor Mindsets Guide**  
-<span class="mentor-line">Co-authors: Dr. Shane McCarty, Dr. Caitlin Light, Zihan Hei, and Dr. Megan Fegley</span>
-
-Co-authored an open-access Quarto guide designed to support reflection, mentoring style, leadership, communication, inclusive mentoring, conflict style, and self-awareness.

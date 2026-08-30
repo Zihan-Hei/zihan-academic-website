@@ -85,7 +85,7 @@ Binghamton University\
 
 - Evaluate model performance using logistic regression, multivariate
   adaptive regression splines, and random forests to predict
-  health-information avoidance using `tidymodels` and `caret` in R.
+  health-information avoidance using tidymodels and caret in R.
 - Develop a reproducible scientific report using Quarto and LaTeX;
   manuscript in preparation.
 :::
