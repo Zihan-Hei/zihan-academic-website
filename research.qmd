@@ -1,0 +1,58 @@
+---
+title: "Research"
+description: "Research experience, faculty mentorship, and current projects"
+---
+
+## Chemo-Immunotherapy Biomarker Discovery
+
+**Independent Study, Binghamton University**  
+<span class="mentor-line">Faculty Mentor: Dr. Nancy Guo</span>  
+**November 2025–Present**
+
+- Reproduce and validate single-cell RNA-seq preprocessing pipelines, including quality control, normalization, and high-variance gene selection.
+- Apply Non-negative Matrix Factorization to identify gene signatures and temporal expression patterns.
+- Perform differential expression analysis and Gene Set Enrichment Analysis to interpret biological pathways associated with treatment response.
+- Compare candidate genes and pathway signals across independent studies and treatment-response groups.
+- Develop reproducible bioinformatics workflows in R, Quarto, and GitHub; manuscript in preparation.
+
+## Health Information Avoidance
+
+**Independent Study, Binghamton University**  
+<span class="mentor-line">Faculty Mentors: Dr. Shane McCarty and Dr. Heather Orom</span>  
+**August 2025–Present**
+
+- Evaluate model performance using logistic regression, multivariate adaptive regression splines, and random forests to predict health-information avoidance using `tidymodels` and `caret` in R.
+- Examine political affiliation as a predictor of cancer-information avoidance, vaccine skepticism, and climate-change skepticism.
+- Fit regression models adjusted for demographic covariates and estimate covariate-adjusted marginal means.
+- Create publication-quality color and black-and-white figures and develop reproducible scientific reports using Quarto and LaTeX.
+- Manuscript in preparation.
+
+## Zero-Sum Beliefs
+
+**Undergraduate Research, Binghamton University**  
+<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**June 2025–Present**
+
+- Examine political party affiliation and zero-sum beliefs as predictors of voter choice in the 2024 U.S. election.
+- Conduct ANOVA, Kruskal-Wallis tests, logistic regression, and machine-learning classification.
+- Prepare reproducible analyses, figures, and written results for manuscript development.
+
+## A Mixed-Methods Analysis of Promotion and Prevention Mindsets
+
+**Undergraduate Research, Binghamton University**  
+<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**August 2025–November 2025**
+
+- Applied logistic regression modeling in R to investigate whether promotion and prevention mindsets predict health- and safety-related goal preferences.
+- Collaborated on a mixed-methods research project combining quantitative analyses with qualitative coding to examine public conceptions of community health and safety.
+- Served as first author on a poster abstract accepted by the 2026 American Public Health Association Annual Meeting.
+
+## First-Year Research Immersion: Community & Global Public Health
+
+**Undergraduate Research, Binghamton University**  
+<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**August 2023–December 2024**
+
+- Collaborated with a seven-person team to research the impact of endometriosis on women's mental health, culminating in poster presentations to peers and faculty in 2023 and 2024.
+- Conducted quantitative data analysis using SPSS and R while collaborating with peers to develop studies on vaccine hesitancy among pregnant women.
+- Designed and distributed a campus-wide survey using Qualtrics and analyzed participant responses.

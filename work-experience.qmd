@@ -1,0 +1,26 @@
+---
+title: "Work Experience"
+description: "Paid quantitative internships and professional experience"
+---
+
+## Quantitative Intern, First-Year Research Immersion Program
+
+**Binghamton University**  
+<span class="mentor-line">Faculty Mentors: Dr. Megan Fegley and Dr. Caitlin Light</span>  
+**June 2026–Present**
+
+- Contribute to the development of interactive R Shiny dashboards for tracking student outcomes and research dissemination metrics for program evaluation and reporting.
+- Develop an integrated database to organize and track dissemination records across FRI research programs.
+- Design and implement Qualtrics surveys to collect research dissemination outcomes, including publications and presentations.
+- Develop Google Apps Script automation workflows to process survey responses, organize author information, and streamline reporting.
+
+## Mental Health Workshop Quantitative Intern
+
+**Binghamton University**  
+<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**June 2026–Present**
+
+- Design Qualtrics surveys to evaluate mental health literacy, well-being, nonviolent communication, and workshop effectiveness.
+- Develop quantitative evaluation methods and survey instruments for the Fall 2026 mental health workshop.
+- Create interactive data visualizations and individualized wellness profiles using Observable JS.
+- Contribute to mixed-methods evaluation planning that integrates quantitative survey findings with qualitative data.

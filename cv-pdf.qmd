@@ -1,0 +1,169 @@
+---
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    geometry:
+      - top=0.55in
+      - bottom=0.55in
+      - left=0.65in
+      - right=0.65in
+    fontsize: 9.5pt
+    keep-tex: true
+header-includes: |
+  \usepackage{xcolor}
+  \usepackage{enumitem}
+  \usepackage{tabularx}
+  \usepackage{array}
+  \usepackage{hyperref}
+  \definecolor{cvpurple}{HTML}{76549A}
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{1pt}
+  \setlist[itemize]{leftmargin=1.25em,itemsep=0.6pt,topsep=1pt,parsep=0pt}
+  \pagestyle{empty}
+  \newcommand{\cvsection}[1]{\vspace{5pt}{\large\bfseries\color{cvpurple}#1}\vspace{1pt}\hrule\vspace{3pt}}
+  \newcommand{\cventry}[4]{%
+    \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}p{1.65in}@{}}
+    \textbf{#1} & \textbf{#2}\\
+    \end{tabularx}
+    \textit{#3}\\[-1pt]
+    {\small\color{cvpurple}#4}\vspace{-2pt}}
+---
+
+```{=latex}
+\begin{center}
+{\LARGE\bfseries Zihan Hei}\\[2pt]
+{\large CV}\\[3pt]
+\href{mailto:zhei@binghamton.edu}{zhei@binghamton.edu} \;|\;
+\href{https://github.com/Zihan-Hei}{github.com/Zihan-Hei} \;|\;
+\href{https://zihanhei.quarto.pub}{zihanhei.quarto.pub}
+\end{center}
+\vspace{-6pt}
+\cvsection{EDUCATION}
+```
+
+**Binghamton University, State University of New York** \hfill **Expected June 2027**  
+Bachelor of Mathematical Sciences in Statistics; Minor in Digital and Data Studies  
+GPA: 3.8/4.0
+
+```{=latex}
+\cvsection{RESEARCH INTERESTS}
+```
+
+Biostatistics; artificial intelligence for health; bioinformatics; statistical learning; cancer biomarker discovery; mental health evaluation; mixed-methods research; reproducible data science; interactive data visualization.
+
+```{=latex}
+\cvsection{WORK EXPERIENCE}
+\cventry{Quantitative Intern, First-Year Research Immersion Program}{June 2026--Present}{Binghamton University}{Faculty Mentors: Dr. Megan Fegley and Dr. Caitlin Light}
+```
+
+- Contribute to the development of interactive R Shiny dashboards for tracking student outcomes and research dissemination metrics for program evaluation and reporting.
+- Develop an integrated database to organize and track dissemination records across FRI research programs.
+- Design and implement Qualtrics surveys to collect research dissemination outcomes, including publications and presentations.
+- Develop Google Apps Script automation workflows to process survey responses, organize author information, and streamline reporting.
+
+```{=latex}
+\cventry{Mental Health Workshop Quantitative Intern}{June 2026--Present}{Binghamton University}{Faculty Mentor: Dr. Shane McCarty}
+```
+
+- Design Qualtrics surveys to evaluate mental health literacy, well-being, nonviolent communication, and workshop effectiveness.
+- Develop quantitative evaluation methods and survey instruments for the Fall 2026 mental health workshop.
+- Create interactive data visualizations and individualized wellness profiles using Observable JS.
+
+```{=latex}
+\cvsection{RESEARCH EXPERIENCE}
+\cventry{Chemo-Immunotherapy Biomarker Discovery}{November 2025--Present}{Independent Study, Binghamton University}{Faculty Mentor: Dr. Nancy Guo}
+```
+
+- Reproduce and validate single-cell RNA-seq preprocessing pipelines, including quality control, normalization, and high-variance gene selection.
+- Apply Non-negative Matrix Factorization to identify gene signatures and temporal expression patterns.
+- Perform differential expression analysis and Gene Set Enrichment Analysis to interpret biological pathways associated with treatment response; manuscript in preparation.
+
+```{=latex}
+\cventry{Health Information Avoidance}{August 2025--Present}{Independent Study, Binghamton University}{Faculty Mentors: Dr. Shane McCarty and Dr. Heather Orom}
+```
+
+- Evaluate model performance using logistic regression, multivariate adaptive regression splines, and random forests to predict health-information avoidance using the tidymodels and caret packages in R.
+- Develop a reproducible scientific report using Quarto and LaTeX; manuscript in preparation.
+
+```{=latex}
+\cventry{A Mixed-Methods Analysis of Promotion and Prevention Mindsets}{August 2025--November 2025}{Undergraduate Research, Binghamton University}{Faculty Mentor: Dr. Shane McCarty}
+```
+
+- Applied logistic regression modeling in R to investigate whether promotion and prevention mindsets predict health- and safety-related goal preferences.
+- Collaborated on a mixed-methods research project combining quantitative analyses with qualitative coding to examine public conceptions of community health and safety.
+- Served as first author on a poster abstract accepted by the 2026 American Public Health Association Annual Meeting.
+
+```{=latex}
+\cventry{Zero-Sum Beliefs}{June 2025--Present}{Undergraduate Research, Binghamton University}{Faculty Mentor: Dr. Shane McCarty}
+```
+
+- Examine political party affiliation and zero-sum beliefs as predictors of voter choice in the 2024 U.S. election.
+- Conduct ANOVA/Kruskal-Wallis tests, logistic regression, and machine-learning classifiers; manuscript in preparation.
+
+```{=latex}
+\cventry{First-Year Research Immersion: Community and Global Public Health}{August 2023--December 2024}{Undergraduate Research, Binghamton University}{Faculty Mentor: Dr. Shane McCarty}
+```
+
+- Collaborated with a seven-person team to research the impact of endometriosis on women's mental health, culminating in two poster presentations to peers and faculty in December 2023 and 2024.
+- Conducted quantitative data analysis using SPSS for six or more hours weekly, collaborating with peers to develop studies on vaccine hesitancy among pregnant women.
+- Designed and distributed a comprehensive campus-wide survey using Qualtrics, collecting and analyzing responses.
+
+```{=latex}
+\cvsection{PUBLICATIONS \& TECHNICAL WRITING}
+```
+
+- McCarty, S., Light, C., **Hei, Z.**, & Fegley, M. (2026). *FRI Peer Mentor Mindsets Guide*. Binghamton University.
+- McCarty, S., & **Hei, Z.** (2025). Selected chapters. In S. McCarty (Ed.), *The Quantitative Playbook for Public Health Research in R*.
+
+```{=latex}
+\cvsection{PRESENTATIONS \& CONFERENCE ABSTRACTS}
+```
+
+- **Hei, Z.**, Giallella, J., & McCarty, S. (2026). *A Mixed-Methods Analysis of Promotion and Prevention Mindsets*. Poster abstract accepted by the American Public Health Association Annual Meeting.
+- McCarty, S., **Hei, Z.**, Rualo, G., Khalap, I., & Giallella, J. (2025). *Promotion & prevention mindsets: A four-study, mixed-methods approach*. Invited online presentation, Society for Community Research & Action.
+- *Public Knowledge & Attitudes on Vaccinations and Reproductive Health*. FRI Poster Research Session, Binghamton University, 2024.
+- *Endometriosis and Women's Mental Health*. FRI Poster Research Session, Binghamton University, 2023.
+
+```{=latex}
+\cvsection{MENTORING}
+\cventry{R Programming Peer Mentor}{January 2025--May 2025}{First-Year Research Immersion Program, Binghamton University}{Faculty Mentor: Dr. Shane McCarty}
+```
+
+- Guided students in applying foundational R programming skills toward team-based research projects.
+- Collaborated with the instructor and other research assistants to support research teams' Quarto research reports.
+
+```{=latex}
+\cvsection{TECHNICAL PROJECTS}
+\cventry{Histopathology Thyroid Cancer Detection Using YOLO}{January 2026--May 2026}{Group Project, Binghamton University}{}
+```
+
+- Built a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.
+- Evaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.
+- Interpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness.
+
+```{=latex}
+\cventry{Deep Reinforcement Learning in Board Games}{September 2025--December 2025}{Group Project, Binghamton University}{}
+```
+
+- Implemented deep reinforcement-learning agents in PyTorch to play Tic-Tac-Toe and Connect Four through self-play.
+- Designed neural networks mapping board states to action values and visualized training performance using Matplotlib.
+
+```{=latex}
+\cvsection{HONORS \& AWARDS}
+```
+
+- NSF Research Experiences for Undergraduates Research Stipend Recipient, 2026--2027
+- Pi Mu Epsilon, National Mathematics Honor Society, 2026
+- Harpur College Dean's List, Every Semester Attended, Fall 2023--Present
+
+```{=latex}
+\cvsection{TECHNICAL SKILLS}
+```
+
+**Programming:** R (tidyverse), Python (Pandas, NumPy), Google Apps Script  
+**Research Reproducibility:** Quarto, GitHub, LaTeX  
+**Data Visualization:** ggplot2, Plotly, Matplotlib, Observable JS  
+**Machine Learning:** Random forests, decision trees, classification models, deep learning, scikit-learn, tidymodels, caret, PyTorch, YOLO  
+**Bioinformatics:** Differential expression analysis, limma, Gene Set Enrichment Analysis, RNA-seq workflows  
+**Survey and Analysis Tools:** Qualtrics, SPSS

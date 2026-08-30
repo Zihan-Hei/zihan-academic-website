@@ -1,0 +1,21 @@
+---
+title: "Publications & Presentations"
+---
+
+## Technical publications
+
+McCarty, S., Light, C., **Hei, Z.**, & Fegley, M. (2026). *FRI Peer Mentor Mindsets Guide*. Binghamton University. [Open resource](https://shanemccarty.github.io/FRImindsets)
+
+McCarty, S., & **Hei, Z.** (2025). Selected chapters. In S. McCarty (Ed.), *The Quantitative Playbook for Public Health Research in R*. [Open resource](https://shanemccarty.github.io/FRIplaybook/)
+
+## Conference abstracts
+
+**Hei, Z.**, Giallella, J., & McCarty, S. (2026). *A Mixed-Methods Analysis of Promotion and Prevention Mindsets*. Poster abstract accepted by the American Public Health Association Annual Meeting.
+
+## Presentations
+
+McCarty, S., **Hei, Z.**, Rualo, G., Khalap, I., & Giallella, J. (2025, November). *Promotion & prevention mindsets: A four-study, mixed-methods approach*. Invited online presentation, Society for Community Research & Action.
+
+**Hei, Z.**, et al. (2024, December). *Public Knowledge & Attitudes on Vaccinations and Reproductive Health*. FRI Proposal Poster Research Session, Binghamton University.
+
+**Hei, Z.**, et al. (2023, December). *Endometriosis and Women’s Mental Health*. FRI Proposal Poster Research Session, Binghamton University.

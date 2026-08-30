@@ -1,0 +1,20 @@
+---
+title: "Mentoring"
+---
+
+## R Programming Peer Mentor
+
+**First-Year Research Immersion Program, Binghamton University**  
+<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**January 2025–May 2025**
+
+- Guided students in applying foundational R programming skills toward team-based research projects.
+- Collaborated with the instructor and other research assistants to support research teams' Quarto research reports.
+- Helped students troubleshoot code, interpret results, and communicate findings in reproducible reports.
+
+## Peer Mentor Educational Resource
+
+**FRI Peer Mentor Mindsets Guide**  
+<span class="mentor-line">Co-authors: Dr. Shane McCarty, Dr. Caitlin Light, Zihan Hei, and Dr. Megan Fegley</span>
+
+Co-authored an open-access Quarto guide designed to support reflection, mentoring style, leadership, communication, inclusive mentoring, conflict style, and self-awareness.

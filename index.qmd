@@ -1,0 +1,160 @@
+---
+page-layout: full
+toc: true
+---
+::: {.hero}
+::: {.hero-text}
+
+
+<div class="profile-heading">
+  <h1>Zihan Hei</h1>
+  <img src="assets/images/profile.jpeg"
+       alt="Zihan Hei"
+       class="profile-photo">
+</div>
+
+## Statistics · Biostatistics · AI for Health
+
+I am an undergraduate statistics student at Binghamton University working across bioinformatics, mental health evaluation, mixed-methods research, and data visualization. I am especially interested in **biostatistics, AI-related health research, cancer biomarker discovery, statistical learning, and reproducible data science**.
+
+[Download CV](files/Zihan_Hei_CV.pdf){.btn .btn-primary} [Explore Research](research.qmd){.btn .btn-outline-primary}
+
+:::
+
+::: {.hero-card}
+
+### Current focus
+
+- Cancer biomarker discovery and RNA-seq validation
+- Health information avoidance and political psychology
+- Mental health workshop evaluation
+- Interactive and reproducible research tools
+
+:::
+
+:::
+
+## About me
+
+My work combines statistical modeling, machine learning, survey design, mixed-methods analysis, and interactive data visualization to address questions in public health and healthcare. I enjoy building reproducible workflows and accessible research tools using R, Python, Quarto, R Shiny, Observable JS, Qualtrics, and GitHub.
+
+## Research at a glance
+
+::: {.stats-grid}
+::: {.stat-card}
+<div class="stat-number">7+</div>
+<div class="stat-label">Research projects</div>
+:::
+::: {.stat-card}
+<div class="stat-number">5</div>
+<div class="stat-label">Faculty mentors</div>
+:::
+::: {.stat-card}
+<div class="stat-number">2</div>
+<div class="stat-label">Technical publications</div>
+:::
+::: {.stat-card}
+<div class="stat-number">3+</div>
+<div class="stat-label">Conference outputs</div>
+:::
+:::
+
+## Selected work
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .project-card}
+### Biomarker discovery
+
+Differential expression, GSEA, and cross-study validation for chemo-immunotherapy response research.
+
+[Learn more](research.qmd#chemo-immunotherapy-biomarker-discovery)
+:::
+::: {.g-col-12 .g-col-md-4 .project-card}
+### FRI data infrastructure
+
+Qualtrics, Google Apps Script, and R Shiny workflows supporting dissemination tracking and program evaluation.
+
+[View work experience](work-experience.qmd#quantitative-intern-first-year-research-immersion-program)
+:::
+::: {.g-col-12 .g-col-md-4 .project-card}
+### Peer mentor guide
+
+Co-authored an open-access Quarto guide supporting reflection, self-awareness, and leadership development.
+
+[View publication](publications.qmd#technical-publications)
+:::
+:::
+
+## Skills: current strengths and learning goals
+
+<div id="skills-radar" class="viz-panel radar-panel" aria-label="Interactive skills radar chart"></div>
+
+<p class="viz-note">This interactive chart is a personal development snapshot rather than a formal proficiency measure. Hover over points to compare scores, and use the Plotly toolbar to zoom, reset, or save the chart.</p>
+
+## Research journey
+
+::: {.timeline}
+::: {.timeline-item}
+<div class="timeline-year">2023–2024</div>
+<div><strong>FRI Community & Global Public Health</strong><br>Endometriosis, vaccine hesitancy, reproductive health, survey research, and poster presentations.</div>
+:::
+::: {.timeline-item}
+<div class="timeline-year">2025</div>
+<div><strong>Research expansion</strong><br>R peer mentoring, promotion and prevention mindsets, zero-sum beliefs, and health information avoidance.</div>
+:::
+::: {.timeline-item}
+<div class="timeline-year">2025–2026</div>
+<div><strong>Bioinformatics and AI</strong><br>Chemo-immunotherapy biomarker validation, deep learning, and reinforcement learning projects.</div>
+:::
+::: {.timeline-item}
+<div class="timeline-year">2026–Present</div>
+<div><strong>Paid quantitative internships</strong><br>FRI data infrastructure and mental health workshop evaluation.</div>
+:::
+:::
+
+## Tools and platforms
+
+These tools are grouped by how I use them across data analysis, visualization, reproducible research, survey design, and health-focused projects. Hover over a logo to see its name and category, and use the Plotly toolbar to pan, zoom, reset, or export the network, and **double-click anywhere on the plot to return to the original view**.
+
+<div id="tools-network-plotly" class="tools-network-plotly" aria-label="Interactive network of tools and platforms"></div>
+
+## Beyond research
+
+Outside of research and coursework, I enjoy climbing, exploring photography, and experiencing live music.
+
+::: {.photo-grid}
+
+::: {.photo-card}
+![](assets/photos/climbing.jpeg){.hobby-photo}
+
+::: {.photo-caption}
+### Climbing
+
+I enjoy climbing as a way to challenge myself, stay active, and step away from the screen.
+:::
+:::
+
+::: {.photo-card}
+![](assets/photos/photography.jpeg){.hobby-photo}
+
+::: {.photo-caption}
+### Photography
+
+Photography gives me a different way to observe and capture the places, people, and moments around me.
+:::
+:::
+
+::: {.photo-card}
+![](assets/photos/concert.jpeg){.hobby-photo}
+
+::: {.photo-caption}
+### Live music
+
+I enjoy going to concerts and discovering new music—one of my favorite ways to recharge outside of academics.
+:::
+:::
+
+:::
+
+<script src="assets/plotly.min.js"></script>
+<script src="assets/visualizations.js"></script>

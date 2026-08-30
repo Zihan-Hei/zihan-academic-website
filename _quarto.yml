@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+    - files/**
+
+website:
+  title: "Zihan Hei"
+  description: "Academic portfolio of Zihan Hei, an undergraduate statistics student at Binghamton University."
+  favicon: assets/favicon.svg
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: work-experience.qmd
+        text: Work Experience
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: mentoring.qmd
+        text: Mentoring
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/Zihan-Hei
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:zhei@binghamton.edu
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Zihan Hei"
+    right: "Built with Quarto"
+  search: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
