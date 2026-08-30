@@ -18,7 +18,7 @@
     "href": "publications.html#conference-abstracts",
     "title": "Publications & Presentations",
     "section": "Conference abstracts",
-    "text": "Conference abstracts\nHei, Z., Giallella, J., & McCarty, S. (2026). A Mixed-Methods Analysis of Promotion and Prevention Mindsets. Poster abstract accepted by the American Public Health Association Annual Meeting."
+    "text": "Conference abstracts\nHei, Z., Giallella, J., & McCarty, S. (2026). A Mixed-Methods Analysis of Promotion and Prevention Mindsets. Poster abstract accepted by the American Public Health Association Annual Meeting. https://apha.confex.com/apha/2026/meetingapp.cgi/Paper/594471"
   },
   {
     "objectID": "publications.html#presentations",
@@ -161,13 +161,6 @@
     "text": "First-Year Research Immersion Program, Binghamton University\nFaculty Mentor: Dr. Shane McCarty\nJanuary 2025–May 2025\n\nGuided students in applying foundational R programming skills toward team-based research projects.\nCollaborated with the instructor and other research assistants to support research teams’ Quarto research reports.\nHelped students troubleshoot code, interpret results, and communicate findings in reproducible reports."
   },
   {
-    "objectID": "mentoring.html#peer-mentor-educational-resource",
-    "href": "mentoring.html#peer-mentor-educational-resource",
-    "title": "Mentoring",
-    "section": "Peer Mentor Educational Resource",
-    "text": "Peer Mentor Educational Resource\nFRI Peer Mentor Mindsets Guide\nCo-authors: Dr. Shane McCarty, Dr. Caitlin Light, Zihan Hei, and Dr. Megan Fegley\nCo-authored an open-access Quarto guide designed to support reflection, mentoring style, leadership, communication, inclusive mentoring, conflict style, and self-awareness."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nZihan Hei\n",
@@ -238,32 +231,25 @@
     "text": "Independent Study, Binghamton University\nFaculty Mentor: Dr. Nancy Guo\nNovember 2025–Present\n\nReproduce and validate single-cell RNA-seq preprocessing pipelines, including quality control, normalization, and high-variance gene selection.\nApply Non-negative Matrix Factorization to identify gene signatures and temporal expression patterns.\nPerform differential expression analysis and Gene Set Enrichment Analysis to interpret biological pathways associated with treatment response.\nCompare candidate genes and pathway signals across independent studies and treatment-response groups.\nDevelop reproducible bioinformatics workflows in R, Quarto, and GitHub; manuscript in preparation."
   },
   {
-    "objectID": "research.html#chemo-immunotherapy-biomarker-discovery",
-    "href": "research.html#chemo-immunotherapy-biomarker-discovery",
+    "objectID": "research.html#transcriptomic-biomarker-discovery-and-validation-in-chemo-immunotherapy",
+    "href": "research.html#transcriptomic-biomarker-discovery-and-validation-in-chemo-immunotherapy",
     "title": "Research",
     "section": "",
     "text": "Independent Study, Binghamton University\nFaculty Mentor: Dr. Nancy Guo\nNovember 2025–Present\n\nReproduce and validate single-cell RNA-seq preprocessing pipelines, including quality control, normalization, and high-variance gene selection.\nApply Non-negative Matrix Factorization to identify gene signatures and temporal expression patterns.\nPerform differential expression analysis and Gene Set Enrichment Analysis to interpret biological pathways associated with treatment response.\nCompare candidate genes and pathway signals across independent studies and treatment-response groups.\nDevelop reproducible bioinformatics workflows in R, Quarto, and GitHub; manuscript in preparation."
   },
   {
-    "objectID": "research.html#health-information-avoidance",
-    "href": "research.html#health-information-avoidance",
+    "objectID": "research.html#machine-learning-for-health-information-avoidance",
+    "href": "research.html#machine-learning-for-health-information-avoidance",
     "title": "Research",
-    "section": "Health Information Avoidance",
-    "text": "Health Information Avoidance\nIndependent Study, Binghamton University\nFaculty Mentors: Dr. Shane McCarty and Dr. Heather Orom\nAugust 2025–Present\n\nEvaluate model performance using logistic regression, multivariate adaptive regression splines, and random forests to predict health-information avoidance using tidymodels and caret in R.\nExamine political affiliation as a predictor of cancer-information avoidance, vaccine skepticism, and climate-change skepticism.\nFit regression models adjusted for demographic covariates and estimate covariate-adjusted marginal means.\nCreate publication-quality color and black-and-white figures and develop reproducible scientific reports using Quarto and LaTeX.\nManuscript in preparation."
-  },
-  {
-    "objectID": "research.html#zero-sum-beliefs",
-    "href": "research.html#zero-sum-beliefs",
-    "title": "Research",
-    "section": "Zero-Sum Beliefs",
-    "text": "Zero-Sum Beliefs\nUndergraduate Research, Binghamton University\nFaculty Mentor: Dr. Shane McCarty\nJune 2025–Present\n\nExamine political party affiliation and zero-sum beliefs as predictors of voter choice in the 2024 U.S. election.\nConduct ANOVA, Kruskal-Wallis tests, logistic regression, and machine-learning classification.\nPrepare reproducible analyses, figures, and written results for manuscript development."
+    "section": "Machine Learning for Health Information Avoidance",
+    "text": "Machine Learning for Health Information Avoidance\nIndependent Study, Binghamton University\nFaculty Mentors: Dr. Heather Orom, Dr. Shane McCarty, and Dr. Kargin Vladislav\nAugust 2025–Present\n\nEvaluate model performance using logistic regression, multivariate adaptive regression splines, and random forests to predict health-information avoidance using tidymodels and caret in R.\nExamine political affiliation as a predictor of cancer-information avoidance, vaccine skepticism, and climate-change skepticism.\nFit regression models adjusted for demographic covariates and estimate covariate-adjusted marginal means.\nCreate publication-quality color and black-and-white figures and develop reproducible scientific reports using Quarto and LaTeX.\nManuscript in preparation."
   },
   {
     "objectID": "research.html#a-mixed-methods-analysis-of-promotion-and-prevention-mindsets",
     "href": "research.html#a-mixed-methods-analysis-of-promotion-and-prevention-mindsets",
     "title": "Research",
     "section": "A Mixed-Methods Analysis of Promotion and Prevention Mindsets",
-    "text": "A Mixed-Methods Analysis of Promotion and Prevention Mindsets\nUndergraduate Research, Binghamton University\nFaculty Mentor: Dr. Shane McCarty\nAugust 2025–November 2025\n\nApplied logistic regression modeling in R to investigate whether promotion and prevention mindsets predict health- and safety-related goal preferences.\nCollaborated on a mixed-methods research project combining quantitative analyses with qualitative coding to examine public conceptions of community health and safety.\nServed as first author on a poster abstract accepted by the 2026 American Public Health Association Annual Meeting."
+    "text": "A Mixed-Methods Analysis of Promotion and Prevention Mindsets\nUndergraduate Research, Binghamton University\nFaculty Mentor: Dr. Shane McCarty\nSeptember 2025–April 2026\n\nApplied logistic regression modeling in R to investigate whether promotion and prevention mindsets predict health- and safety-related goal preferences.\nCollaborated on a mixed-methods research project combining quantitative analyses with qualitative coding to examine public conceptions of community health and safety.\nServed as first author on a poster abstract accepted by the 2026 American Public Health Association Annual Meeting."
   },
   {
     "objectID": "research.html#first-year-research-immersion-community-global-public-health",
@@ -271,5 +257,12 @@
     "title": "Research",
     "section": "First-Year Research Immersion: Community & Global Public Health",
     "text": "First-Year Research Immersion: Community & Global Public Health\nUndergraduate Research, Binghamton University\nFaculty Mentor: Dr. Shane McCarty\nAugust 2023–December 2024\n\nCollaborated with a seven-person team to research the impact of endometriosis on women’s mental health, culminating in poster presentations to peers and faculty in 2023 and 2024.\nConducted quantitative data analysis using SPSS and R while collaborating with peers to develop studies on vaccine hesitancy among pregnant women.\nDesigned and distributed a campus-wide survey using Qualtrics and analyzed participant responses."
+  },
+  {
+    "objectID": "research.html#political-affiliation-and-zero-sum-beliefs",
+    "href": "research.html#political-affiliation-and-zero-sum-beliefs",
+    "title": "Research",
+    "section": "Political Affiliation and Zero-Sum Beliefs",
+    "text": "Political Affiliation and Zero-Sum Beliefs\nUndergraduate Research, Binghamton University\nFaculty Mentor: Dr. Shane McCarty\nJune 2025–Present\n\nExamine political party affiliation and zero-sum beliefs as predictors of voter choice in the 2024 U.S. election.\nConduct ANOVA, Kruskal-Wallis tests, logistic regression, and machine-learning classification.\nPrepare reproducible analyses, figures, and written results for manuscript development."
   }
 ]
