@@ -1,7 +1,6 @@
 ---
 title: "Technical Projects"
 description: "Selected machine-learning and data-science projects"
----| Group project
 ---
 
 ## Histopathology Thyroid Cancer Detection Using YOLO
