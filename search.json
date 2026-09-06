@@ -249,20 +249,20 @@
     "href": "projects.html",
     "title": "Technical Projects",
     "section": "",
-    "text": "Digital & Data Studies Group Project, Binghamton University\nJanuary 2026–May 2026\n\nBuilt a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.\nEvaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.\nInterpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness."
+    "text": "Digital & Data Studies Group Project, Binghamton University | Group project\nJanuary 2026–May 2026\n\nBuilt a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.\nEvaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.\nInterpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness."
   },
   {
     "objectID": "projects.html#histopathology-thyroid-cancer-detection-using-yolo",
     "href": "projects.html#histopathology-thyroid-cancer-detection-using-yolo",
     "title": "Technical Projects",
     "section": "",
-    "text": "Digital & Data Studies Group Project, Binghamton University\nJanuary 2026–May 2026\n\nBuilt a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.\nEvaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.\nInterpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness."
+    "text": "Digital & Data Studies Group Project, Binghamton University | Group project\nJanuary 2026–May 2026\n\nBuilt a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.\nEvaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.\nInterpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness."
   },
   {
     "objectID": "projects.html#deep-reinforcement-learning-in-board-games",
     "href": "projects.html#deep-reinforcement-learning-in-board-games",
     "title": "Technical Projects",
     "section": "Deep Reinforcement Learning in Board Games",
-    "text": "Deep Reinforcement Learning in Board Games\nDigital & Data Studies Group Project, Binghamton University\nSeptember 2025–December 2025\n\nImplemented deep reinforcement-learning agents in PyTorch to play Tic-Tac-Toe and Connect Four through self-play.\nDesigned neural networks mapping board states to action values.\nVisualized training performance using Matplotlib."
+    "text": "Deep Reinforcement Learning in Board Games\nDigital & Data Studies Group Project, Binghamton University | Group project\nSeptember 2025–December 2025\n\nImplemented deep reinforcement-learning agents in PyTorch to play Tic-Tac-Toe and Connect Four through self-play.\nDesigned neural networks mapping board states to action values.\nVisualized training performance using Matplotlib."
   }
 ]
