@@ -1,20 +1,21 @@
 ---
 title: "Technical Projects"
 description: "Selected machine-learning and data-science projects"
+---| Group project
 ---
 
-## Histopathology Thyroid Cancer Detection Using YOLO
+## Histopathology Thyroid Cancer Detection Using YOLO \| [Group project](https://github.com/Zihan-Hei/Histopathology-Thyroid-Cancer-Detection-A-Triple-Class-YOLO26-Approach)
 
-**Digital & Data Studies Group Project, Binghamton University**  
+**Digital & Data Studies Group Project, Binghamton University**\
 **January 2026–May 2026**
 
 - Built a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.
 - Evaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.
 - Interpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness.
 
-## Deep Reinforcement Learning in Board Games
+## Deep Reinforcement Learning in Board Games \| [Group project](https://github.com/Zihan-Hei/Learning-to-Win-Deep-Reinforcement-Learning-DRL-in-Board-Games)
 
-**Digital & Data Studies Group Project, Binghamton University**  
+**Digital & Data Studies Group Project, Binghamton University**\
 **September 2025–December 2025**
 
 - Implemented deep reinforcement-learning agents in PyTorch to play Tic-Tac-Toe and Connect Four through self-play.
