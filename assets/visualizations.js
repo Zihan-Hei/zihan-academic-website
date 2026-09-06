@@ -18,6 +18,7 @@
   function drawRadar() {
     const host = document.getElementById("skills-radar");
     if (!host || typeof Plotly === "undefined") return;
+    const isMobile = window.innerWidth <= 680;
     const theta = labels.concat(labels[0]);
     const data = [
       {
@@ -39,27 +40,78 @@
     ];
     const layout = {
       autosize: true,
-      margin: { t: 70, r: 170, b: 95, l: 170 },
-      paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
-      font: { family: "Inter, system-ui, sans-serif", color: "#403746", size: 15 },
-      showlegend: true,
-      legend: {
-        x: .98, y: .98, xanchor: "right", yanchor: "top",
-        bgcolor: "rgba(247,241,251,.94)", bordercolor: "#d8bfe9", borderwidth: 1,
-        font: { size: 13 }, orientation: "v"
+      height: isMobile ? 460 : 850,
+      
+      margin: isMobile
+      ? { t: 55, r: 45, b: 70, l: 45 }
+      : { t: 70, r: 170, b: 95, l: 170 },
+      
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)",
+
+      font: {
+        family: "Inter, system-ui, sans-serif",
+        color: "#403746",
+        size: isMobile ? 11 : 15
       },
-      polar: {
-        domain: { x: [.02, .98], y: [.02, .98] }, bgcolor: "rgba(0,0,0,0)",
-        radialaxis: {
-          visible: true, range: [0,10], tickvals: [2,4,6,8,10],
-          tickfont: { size: 11, color: "#8b7e91" }, gridcolor: "#e8ddf1", linecolor: "#e8ddf1"
-        },
-        angularaxis: {
-          direction: "clockwise", rotation: 90, gridcolor: "#e8ddf1", linecolor: "#e8ddf1",
-          tickfont: { size: 14, color: "#403746" }
+
+      showlegend: true,
+
+      legend: isMobile
+        ? {
+          x: 0.5,
+          y: -0.12,
+          xanchor: "center",
+          yanchor: "top",
+          orientation: "h",
+          bgcolor: "rgba(247,241,251,.94)",
+          bordercolor: "#d8bfe9",
+          borderwidth: 1,
+          font: { size: 10 }
         }
+      : {
+          x: .98,
+          y: .98,
+          xanchor: "right",
+          yanchor: "top",
+          bgcolor: "rgba(247,241,251,.94)",
+          bordercolor: "#d8bfe9",
+          borderwidth: 1,
+          font: { size: 13 },
+          orientation: "v"
+        },
+
+      polar: {
+        domain: isMobile
+        ? { x: [.04, .96], y: [.12, .98] }
+        : { x: [.02, .98], y: [.02, .98] },
+
+      bgcolor: "rgba(0,0,0,0)",
+
+      radialaxis: {
+       visible: true,
+       range: [0, 10],
+        tickvals: [2, 4, 6, 8, 10],
+        tickfont: {
+          size: isMobile ? 8 : 11,
+          color: "#8b7e91"
+      },
+      gridcolor: "#e8ddf1",
+      linecolor: "#e8ddf1"
+    },
+
+    angularaxis: {
+      direction: "clockwise",
+      rotation: 90,
+      gridcolor: "#e8ddf1",
+      linecolor: "#e8ddf1",
+      tickfont: {
+        size: isMobile ? 10 : 14,
+        color: "#403746"
       }
-    };
+    }
+  }
+};
     const config = {
       responsive: true, displaylogo: false, scrollZoom: true,
       modeBarButtonsToRemove: ["select2d","lasso2d","autoScale2d"],
@@ -71,7 +123,8 @@
   function drawToolsNetwork() {
     const host = document.getElementById("tools-network-plotly");
     if (!host || typeof Plotly === "undefined") return;
-
+    const isMobile = window.innerWidth <= 680;
+    
     const colors = {
       r: "#5f88c5",
       apps: "#9d63bd",
@@ -160,7 +213,11 @@
       y:nodes.map(n => n.y),
       customdata:nodes.map(n => [n.label,n.category]),
       marker:{
-        size:nodes.map(n => n.hub ? 94 : 76),
+        size: nodes.map(n => 
+        isMobile
+        ? (n.hub ? 68 : 56)
+        : (n.hub ? 94 : 76)
+      ),
         color:"rgba(255,255,255,0)",
         line:{color:"rgba(255,255,255,0)",width:0}
       },
@@ -169,12 +226,25 @@
     });
 
     const images = nodes.map(n => ({
-      source:`assets/logos/exact_core/${n.image}`,
-      xref:"x", yref:"y", x:n.x, y:n.y,
-      sizex:n.hub ? .88 : .70,
-      sizey:n.hub ? .88 : .70,
-      xanchor:"center", yanchor:"middle",
-      sizing:"contain", opacity:1, layer:"above"
+      source: `assets/logos/exact_core/${n.image}`,
+      xref: "x",
+      yref: "y",
+      x: n.x,
+      y: n.y,
+
+      sizex: isMobile
+        ? (n.hub ? .72 : .58)
+        : (n.hub ? .88 : .70),
+
+      sizey: isMobile
+        ? (n.hub ? .72 : .58)
+        : (n.hub ? .88 : .70),
+
+      xanchor: "center",
+      yanchor: "middle",
+      sizing: "contain",
+      opacity: 1,
+      layer: "above"
     }));
 
     const shapes = nodes.map(n => {
@@ -192,13 +262,15 @@
         layer:"below"
       };
     });
+    
+    const headingSize = isMobile ? 11 : 17;
 
     const annotations = [
-      {x:3.15,y:11.18,text:"<b>R data science</b>",font:{color:colors.r,size:17}},
-      {x:13.55,y:11.18,text:"<b>Interactive visualization & apps</b>",font:{color:colors.apps,size:17}},
-      {x:8.35,y:7.88,text:"<b>Python & scientific computing</b>",font:{color:colors.python,size:17}},
-      {x:3.15,y:.42,text:"<b>Research workflow & communication</b>",font:{color:colors.workflow,size:17}},
-      {x:13.70,y:.42,text:"<b>Survey & statistical platforms</b>",font:{color:colors.survey,size:17}}
+      {x:3.15,y:11.18,text:"<b>R data science</b>",font:{color:colors.r,size:headingSize}},
+      {x:13.55,y:11.18,text:"<b>Interactive visualization & apps</b>",font:{color:colors.apps,size:headingSize}},
+      {x:8.35,y:7.88,text:"<b>Python & scientific computing</b>",font:{color:colors.python,size:headingSize}},
+      {x:3.15,y:.42,text:"<b>Research workflow & communication</b>",font:{color:colors.workflow,size:headingSize}},
+      {x:13.70,y:.42,text:"<b>Survey & statistical platforms</b>",font:{color:colors.survey,size:headingSize}}
     ].map(a => ({...a,xref:"x",yref:"y",showarrow:false,xanchor:"center",yanchor:"middle"}));
 
     // Only non-hub tools get text underneath. Hubs are identified by the logo itself.
@@ -227,13 +299,16 @@
         xref:"x", yref:"y", showarrow:false,
         text:`<b>${displayLabel[n.id] || n.label}</b>`,
         xanchor:"center", yanchor:"top", align:"center",
-        font:{family:"Inter, system-ui, sans-serif",size:12,color:colors.text}
+        font:{family:"Inter, system-ui, sans-serif",size:isMobile ? 8 : 12,color:colors.text}
       });
     });
 
     const layout = {
       autosize:true,
-      margin:{l:22,r:22,t:12,b:16},
+      height: isMobile ? 470 : 950,
+      margin: isMobile
+        ? { l: 5, r: 5, t: 8, b: 8 }
+        : { l: 22, r: 22, t: 12, b: 16 },
       paper_bgcolor:"rgba(0,0,0,0)",
       plot_bgcolor:"rgba(0,0,0,0)",
       xaxis:{range:[0,16.8],visible:false,fixedrange:false,zeroline:false},
@@ -244,7 +319,7 @@
       hoverlabel:{
         bgcolor:"white",
         bordercolor:"#d8bfe9",
-        font:{family:"Inter, system-ui, sans-serif",color:colors.text}
+        font:{family:"Inter, system-ui, sans-serif",color:colors.text, size: isMobile ? 11 : 13}
       },
       dragmode:"pan"
     };
