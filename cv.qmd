@@ -65,8 +65,9 @@ Intern]{.cv-entry-title} — Binghamton University\
 ## Research Experience
 
 ::: cv-entry
-[November 2025–Present]{.cv-date} [Transcriptomic Biomarker Discovery and Validation in Chemo-Immunotherapy]{.cv-entry-title} — Independent Study,
-Binghamton University\
+[November 2025–Present]{.cv-date} [Transcriptomic Biomarker Discovery
+and Validation in Chemo-Immunotherapy]{.cv-entry-title} — Independent
+Study, Binghamton University\
 [Faculty Mentors: Dr. Nancy Guo]{.cv-mentor}
 
 - Reproduce and validate single-cell RNA-seq preprocessing pipelines,
@@ -80,8 +81,10 @@ Binghamton University\
 :::
 
 ::: cv-entry
-[August 2025–Present]{.cv-date} [Machine Learning for Health Information Avoidance]{.cv-entry-title} — Independent Study, Binghamton University\
-[Faculty Mentors: Dr. Heather Orom, Dr. Shane McCarty and Dr.Kargin Vladislav]{.cv-mentor}
+[August 2025–Present]{.cv-date} [Machine Learning for Health Information
+Avoidance]{.cv-entry-title} — Independent Study, Binghamton University\
+[Faculty Mentors: Dr. Heather Orom, Dr. Shane McCarty and Dr.Kargin
+Vladislav]{.cv-mentor}
 
 - Evaluate model performance using logistic regression, multivariate
   adaptive regression splines, and random forests to predict
@@ -91,8 +94,9 @@ Binghamton University\
 :::
 
 ::: cv-entry
-[August 2025–APR 2026]{.cv-date} [A Mixed-Methods Analysis of Promotion and Prevention Mindsets]{.cv-entry-title} — Undergraduate
-Research, Binghamton University\
+[August 2025–APR 2026]{.cv-date} [A Mixed-Methods Analysis of Promotion
+and Prevention Mindsets]{.cv-entry-title} — Undergraduate Research,
+Binghamton University\
 [Faculty Mentor: Dr. Shane McCarty]{.cv-mentor}
 
 - Applied logistic regression modeling in R to investigate whether
@@ -106,8 +110,9 @@ Research, Binghamton University\
 :::
 
 ::: cv-entry
-[June 2025–Present]{.cv-date} [Political Affiliation and Zero-Sum Beliefs]{.cv-entry-title} —
-Undergraduate Research, Binghamton University\
+[June 2025–Present]{.cv-date} [Political Affiliation and Zero-Sum
+Beliefs]{.cv-entry-title} — Undergraduate Research, Binghamton
+University\
 [Faculty Mentor: Dr. Shane McCarty]{.cv-mentor}
 
 - Examine political party affiliation and zero-sum beliefs as predictors
@@ -134,12 +139,25 @@ Research, Binghamton University\
 
 ## Publications & Technical Writing
 
+- McCarty, S., Light, C., **Hei, Z.**, Panzik, J., Wolfe, P., &
+  Fegley, M. (2026). *FRI Semester 3 Peer Mentor Mindsets Guide*.
+  Binghamton University. [Open
+  resource](https://shanemccarty.github.io/FRImindsets3/)
+
 - McCarty, S., Light, C., **Hei, Z.**, & Fegley, M. (2026). *FRI Peer
   Mentor Mindsets Guide*. Binghamton University. [Open
   resource](https://shanemccarty.github.io/FRImindsets/)
-- McCarty, S., & **Hei, Z.** (2025). Selected chapters. In S. McCarty
-  (Ed.), *The Quantitative Playbook for Public Health Research in R*.
-  [Open resource](https://shanemccarty.github.io/FRIplaybook/)
+
+- McCarty, S., & **Hei, Z**. (2025). Chapter contributions to *The
+  Quantitative Playbook for Public Health Research in R*, S. McCarty
+  (Ed.). [Open resource](https://shanemccarty.github.io/FRIplaybook/)
+
+  - McCarty, S., & **Hei, Z**. “Reproducible Reports.”
+  - **Hei, Z.**, & McCarty, S. “Import Data Once.”
+  - **Hei, Z.**, & McCarty, S. “Read Me.”
+  - **Hei, Z.** “Writing Methods & Results Reproducibly.”
+  - **Hei, Z.** “APA Citations & References.”
+  - **Hei, Z.** “Publish Your Report to Quarto Pub.”
 
 ## Presentations & Conference Abstracts
 
@@ -175,7 +193,8 @@ Binghamton University\
 ::: cv-entry
 [January 2026–May 2026]{.cv-date} [Histopathology Thyroid Cancer
 Detection Using YOLO]{.cv-entry-title} — Group Project, Binghamton
-University
+University \| [Group
+project](https://github.com/Zihan-Hei/Histopathology-Thyroid-Cancer-Detection-A-Triple-Class-YOLO26-Approach)
 
 - Built a YOLO-based deep-learning model to detect thyroid cancer,
   abnormal, and normal tissue in histopathological images for potential
@@ -188,7 +207,9 @@ University
 
 ::: cv-entry
 [September 2025–December 2025]{.cv-date} [Deep Reinforcement Learning in
-Board Games]{.cv-entry-title} — Group Project, Binghamton University
+Board Games]{.cv-entry-title} — Group Project, Binghamton University \|
+[Group
+project](https://github.com/Zihan-Hei/Learning-to-Win-Deep-Reinforcement-Learning-DRL-in-Board-Games)
 
 - Implemented deep reinforcement-learning agents in PyTorch to play
   Tic-Tac-Toe and Connect Four through self-play.
@@ -198,11 +219,14 @@ Board Games]{.cv-entry-title} — Group Project, Binghamton University
 
 ## Honors & Awards
 
-- NSF Research Experiences for Undergraduates Research Stipend
-  Recipient, 2026–2027
-- Pi Mu Epsilon, National Mathematics Honor Society, 2026
-- Harpur College Dean's List, Every Semester Attended, Fall 2023–Present
-- Provost's Promise Scholarship, Every Semester, Fall 2023–Present 
+- NSF Research Experiences for Undergraduates Research Stipend Recipient
+  (2026–2027)
+- Fleishman Summer Internship Funding Award, Binghamton University
+  (Summer 2026)
+- Pi Mu Epsilon, National Mathematics Honor Society (2026)
+- Provost's Promise Scholarship, Every Semester (Fall 2023–Present)
+- Harpur College Dean's List, Every Semester Attended (Fall
+  2023–Present)
 
 ## Technical Skills
 

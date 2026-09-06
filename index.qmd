@@ -46,11 +46,11 @@ My work combines statistical modeling, machine learning, survey design, mixed-me
 <div class="stat-label">Research projects</div>
 :::
 ::: {.stat-card}
-<div class="stat-number">5</div>
+<div class="stat-number">6</div>
 <div class="stat-label">Faculty mentors</div>
 :::
 ::: {.stat-card}
-<div class="stat-number">2</div>
+<div class="stat-number">3</div>
 <div class="stat-label">Technical publications</div>
 :::
 ::: {.stat-card}
@@ -63,7 +63,7 @@ My work combines statistical modeling, machine learning, survey design, mixed-me
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4 .project-card}
-### Biomarker discovery
+### Transcriptomic biomarker discovery
 
 Differential expression, GSEA, and cross-study validation for chemo-immunotherapy response research.
 
