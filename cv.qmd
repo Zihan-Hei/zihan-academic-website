@@ -217,6 +217,18 @@ project](https://github.com/Zihan-Hei/Learning-to-Win-Deep-Reinforcement-Learnin
   visualized training performance using Matplotlib.
 :::
 
+## Leadership & Activities
+
+::: cv-entry
+[September 2026–Present]{.cv-date} [Graphic Designer]{.cv-entry-title} —
+Binghamton AI Society, Binghamton University
+
+- Design promotional graphics and event materials, including posters, to
+  support club events, outreach, and student engagement.
+- Develop logo and branding concepts in collaboration with the executive
+  board.
+:::
+
 ## Honors & Awards
 
 - NSF Research Experiences for Undergraduates Research Stipend Recipient
