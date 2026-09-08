@@ -118,6 +118,17 @@ These tools are grouped by how I use them across data analysis, visualization, r
 
 <div id="tools-network-plotly" class="tools-network-plotly" aria-label="Interactive network of tools and platforms"></div>
 
+
+## Leadership & Activities
+
+::: {.project-card}
+### Graphic Designer
+**Binghamton AI Society, Binghamton University**  
+*September 2026 – Present*
+
+Design promotional graphics and event materials for club events and outreach, while developing logo and branding concepts in collaboration with the executive board.
+:::
+
 ## Beyond research
 
 Outside of research and coursework, I enjoy climbing, exploring photography, and experiencing live music.
