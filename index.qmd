@@ -26,7 +26,8 @@ I am an undergraduate statistics student at Binghamton University working across
 ### Current focus
 
 - Cancer biomarker discovery and RNA-seq validation
-- Health information avoidance and political psychology
+- Health information avoidance in Colorectal Cancer 
+- Zero-Sum beliefs and political psychology
 - Mental health workshop evaluation
 - Interactive and reproducible research tools
 
@@ -51,7 +52,7 @@ My work combines statistical modeling, machine learning, survey design, mixed-me
 :::
 ::: {.stat-card}
 <div class="stat-number">3</div>
-<div class="stat-label">Technical publications</div>
+<div class="stat-label">Published works</div>
 :::
 ::: {.stat-card}
 <div class="stat-number">3+</div>
@@ -126,7 +127,7 @@ These tools are grouped by how I use them across data analysis, visualization, r
 **Binghamton AI Society, Binghamton University**  
 *September 2026 – Present*
 
-Design promotional graphics and event materials for club events and outreach, while developing logo and branding concepts in collaboration with the executive board.
+Design the club logo and promotional materials, including event posters, workshop graphics, and outreach visuals.
 :::
 
 ## Beyond research

@@ -8,7 +8,7 @@ title: "Mentoring"
 <span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
 **January 2025–May 2025**
 
-- Guided students in applying foundational R programming skills toward team-based research projects.
+- Mentored students in applying foundational R programming skills toward team-based research and Quarto reporting across public health projects.
 - Collaborated with the instructor and other research assistants to support research teams' Quarto research reports.
 - Helped students troubleshoot code, interpret results, and communicate findings in reproducible reports.
 

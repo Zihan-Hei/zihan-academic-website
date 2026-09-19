@@ -6,11 +6,12 @@ description: "Selected machine-learning and data-science projects"
 ## Histopathology Thyroid Cancer Detection Using YOLO
 
 **Digital & Data Studies Group Project, Binghamton University** \| [Group project](https://github.com/Zihan-Hei/Histopathology-Thyroid-Cancer-Detection-A-Triple-Class-YOLO26-Approach)\
-**January 2026–May 2026**
+**January 2026–Present**
 
-- Built a YOLO-based deep-learning model to detect thyroid cancer, abnormal, and normal tissue in histopathological images for potential pre-screening applications.
-- Evaluated model performance through Type I and Type II error analysis, assessing risks of missed diagnoses and unnecessary follow-up.
-- Interpreted confusion matrices to assess model limitations related to class imbalance and dataset representativeness.
+- Develop a YOLO26-based deep-learning workflow for thyroid cancer, abnormal, and normal histopathology tissue detection, including model training, evaluation, and error analysis.
+- Evaluate model performance through Type I (false positive) and Type II (false negative) error analysis and interpret confusion matrices for class imbalance and dataset representativeness.
+- Visualize and document model performance and limitations for potential pre-screening
+  applications (manuscript in preparation)
 
 ## Deep Reinforcement Learning in Board Games
 

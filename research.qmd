@@ -5,55 +5,56 @@ description: "Research experience, faculty mentorship, and current projects"
 
 ## Transcriptomic Biomarker Discovery and Validation in Chemo-Immunotherapy
 
-**Independent Study, Binghamton University**  
-<span class="mentor-line">Faculty Mentor: Dr. Nancy Guo</span>  
+**Independent Study, *NSF REU Research Stipend,* Binghamton University**
+
+[Faculty Mentor: Dr. Nancy Guo]{.mentor-line}\
 **November 2025–Present**
 
-- Reproduce and validate single-cell RNA-seq preprocessing pipelines, including quality control, normalization, and high-variance gene selection.
-- Apply Non-negative Matrix Factorization to identify gene signatures and temporal expression patterns.
-- Perform differential expression analysis and Gene Set Enrichment Analysis to interpret biological pathways associated with treatment response.
-- Compare candidate genes and pathway signals across independent studies and treatment-response groups.
-- Develop reproducible bioinformatics workflows in R, Quarto, and GitHub; manuscript in preparation.
+- Contribute 10 hrs/week to chemo-immunotherapy biomarker discovery by reproducing RNA-seq and scRNA-seq preprocessing, clustering TCR expansion with K-means, and analyzing treatment-response signatures.
+- Transform and validate single-cell RNA-seq data through quality control, normalization, gene filtering, and highly variable gene selection.
+- Perform differential expression analysis, cross-study comparisons, and Gene Set Enrichment Analysis to identify and validate treatment-response biomarkers and biological pathways.
+- Develop reproducible bioinformatics workflows in R, Quarto, and GitHub (Manuscript in preparation)
 
-## Machine Learning for Health Information Avoidance
+## Predicting Health Information Avoidance in Colorectal Cancer
 
-**Independent Study, Binghamton University**  
-<span class="mentor-line">Faculty Mentors: Dr. Heather Orom, Dr. Shane McCarty, and Dr. Kargin Vladislav</span>  
+**Independent Study, Binghamton University**\
+[Faculty Mentors: Dr. Heather Orom (University at Buffalo), Dr. Shane McCarty, and Dr. Kargin Vladislav]{.mentor-line}\
 **August 2025–Present**
 
-- Evaluate model performance using logistic regression, multivariate adaptive regression splines, and random forests to predict health-information avoidance using `tidymodels` and `caret` in R.
+- Predict health information avoidance in colorectal cancer using logistic regression, multivariate adaptive regression splines (MARS), and random forest classifiers in R with `tidymodels` and `caret`.
 - Examine political affiliation as a predictor of cancer-information avoidance, vaccine skepticism, and climate-change skepticism.
 - Fit regression models adjusted for demographic covariates and estimate covariate-adjusted marginal means.
-- Create publication-quality color and black-and-white figures and develop reproducible scientific reports using Quarto and LaTeX.
-- Manuscript in preparation.
+- Evaluate and compare model performance using cross-validation and predictive metrics, documenting results in a reproducible Quarto and LaTeX [report](https://zihanhei.quarto.pub/avoider-report/) (Manuscript in preparation)
 
 ## A Mixed-Methods Analysis of Promotion and Prevention Mindsets
 
-**Undergraduate Research, Binghamton University**  
-<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**Undergraduate Research, Binghamton University**\
+[Faculty Mentor: Dr. Shane McCarty]{.mentor-line}\
 **September 2025–April 2026**
 
+- Contributed quantitative analyses to a mixed-methods study integrating statistical modeling with team-conducted qualitative coding on community health and safety perceptions.
 - Applied logistic regression modeling in R to investigate whether promotion and prevention mindsets predict health- and safety-related goal preferences.
-- Collaborated on a mixed-methods research project combining quantitative analyses with qualitative coding to examine public conceptions of community health and safety.
-- Served as first author on a poster abstract accepted by the 2026 American Public Health Association Annual Meeting.
+- Served as first author on a poster abstract accepted for the 2026 APHA Annual Meeting
+  and co-authored a 2025 Society for Community Research & Action presentation.
 
-## First-Year Research Immersion: Community & Global Public Health
+## First-Year Research Immersion (FRI): Community & Global Public Health
 
-**Undergraduate Research, Binghamton University**  
-<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**Undergraduate Research, Binghamton University**\
+[Faculty Mentor: Dr. Shane McCarty]{.mentor-line}\
 **August 2023–December 2024**
 
-- Collaborated with a seven-person team to research the impact of endometriosis on women's mental health, culminating in poster presentations to peers and faculty in 2023 and 2024.
-- Conducted quantitative data analysis using SPSS and R while collaborating with peers to develop studies on vaccine hesitancy among pregnant women.
+- Collaborated with a 7-person team to research the impact of Endometriosis on women's mental health, culminating in poster presentations to peers and faculty at FRI conferences in December 2023 and 2024.
+- Conducted quantitative data analysis using SPSS for 6+ hrs/week to examine vaccine hesitancy among pregnant women.
 - Designed and distributed a campus-wide survey using Qualtrics and analyzed participant responses.
 
-## Political Affiliation and Zero-Sum Beliefs
+## **Examining Zero-Sum Beliefs and Political Affiliation**
 
-**Undergraduate Research, Binghamton University**  
-<span class="mentor-line">Faculty Mentor: Dr. Shane McCarty</span>  
+**Undergraduate Research, Binghamton University**\
+[Faculty Mentor: Dr. Shane McCarty]{.mentor-line}\
 **June 2025–Present**
 
 - Examine political party affiliation and zero-sum beliefs as predictors of voter choice in the 2024 U.S. election.
-- Conduct ANOVA, Kruskal-Wallis tests, logistic regression, and machine-learning classification.
-- Prepare reproducible analyses, figures, and written results for manuscript development.
 
+- Conduct ANOVA, Kruskal-Wallis tests, logistic regression, and machine-learning classification in R.
+
+- Synthesize findings into a scientific reproducible [report](https://fripublichealth.quarto.pub/zerosum/) (Manuscript in preparation)

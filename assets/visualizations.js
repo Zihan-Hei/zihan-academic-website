@@ -11,8 +11,8 @@
     "R Shiny /<br>web apps",
     "Scientific<br>writing"
   ];
-  const current = [9.5, 8.0, 9.0, 8.2, 6.5, 7.5, 7.0, 7.8];
-  const goal = [10.0, 10.0, 10.0, 10.0, 8.0, 10.0, 8.0, 9.0];
+  const current = [9.0, 8.0, 9.0, 8.0, 3.0, 7.5, 6.5, 7.5];
+  const goal = [10.0, 10.0, 10.0, 10.0, 8.0, 10.0, 9.0, 9.0];
   const closeLoop = values => values.concat(values[0]);
 
   function drawRadar() {
