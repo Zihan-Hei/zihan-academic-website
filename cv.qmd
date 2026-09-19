@@ -67,8 +67,8 @@ Summer Intern]{.cv-entry-title} — Binghamton University\
 
 ::: cv-entry
 [November 2025–Present]{.cv-date} [Transcriptomic Biomarker Discovery
-and Validation in Chemo-Immunotherapy]{.cv-entry-title} — Independent
-Study, ***NSF REU Research Stipend,*** Binghamton University
+and Validation in Chemo-Immunotherapy]{.cv-entry-title} — NSF REU
+Research Stipend Independent Study, Binghamton University
 
 [Faculty Mentors: Dr. Nancy Guo]{.cv-mentor}
 
